@@ -37,7 +37,7 @@ export default function IPODetails({ id }) {
   return (
     <div className="container">
       <div className="links">
-        <Link href="/" className="primary home-link">
+        <Link href="/" className="primary">
           Home
         </Link>
         <MdKeyboardArrowRight size={10} />

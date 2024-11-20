@@ -66,8 +66,8 @@ const IPOTimeline = ({ currentStep, numberOfSteps ,stepsData}) => {
       <div className="step-wrapper">
         {stepsData.map((step, index) => (
           <div key={index}>
-            <p className="timeline-heading">{step.title}</p>
-            <span >{step.date}</span>
+            <p className="timeline-heading secondary">{step.title}</p>
+            <span className='primary'>{step.date}</span>
           </div>
         ))}
       </div>

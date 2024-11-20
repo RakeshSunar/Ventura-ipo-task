@@ -3,49 +3,7 @@ import Link from "next/link";
 import React from "react";
 import ipoList from "../../../ipoData.json";
 
-import goAir from "../../../public/images/go-air.jpeg";
-import bajaj from "../../../public/images/bajaj-energy.jpg";
-import oyo from "../../../public/images/oyo.png";
-
-
-// console.log("IPODat787a",IPOData[0].company)
-// const IPOListungKey = IPOData[0];
-
-
 const IPOList = () => {
-  // const ipoList = [
-  //   {
-  //     id: "go-air",
-  //     logoImg: goAir,
-  //     company: "GO AIR",
-  //     issueDate: "4th-7th oct 2022",
-  //     issueSize: "₹3600 Crores",
-  //     priceRange: "₹50-60",
-  //     minInvestment: "₹50,000",
-  //     qty: "100 Shares/5 lots",
-  //   },
-  //   {
-  //     id: "bajaj-energy",
-  //     logoImg: bajaj,
-  //     company: "BAJAJ ENERGY",
-  //     issueDate: "4th-7th oct 2022",
-  //     issueSize: "₹2500 Crores",
-  //     priceRange: "₹25-40",
-  //     minInvestment: "₹25,000",
-  //     qty: "100 Shares/5 lots",
-  //   },
-  //   {
-  //     id: "oyo",
-  //     logoImg: oyo,
-  //     company: "OYO",
-  //     issueDate: "4th-7th oct 2022",
-  //     issueSize: "₹5600 Crores",
-  //     priceRange: "₹50-60",
-  //     minInvestment: "₹50,000",
-  //     qty: "100 Shares/5 lots",
-  //   },
-  // ];
-
   return (
     <div className="container ipo-list">
       <div className="table-wrap">
@@ -65,7 +23,12 @@ const IPOList = () => {
                   <td>
                     <div className="company-wrap">
                       <div className="logo">
-                        <Image src={ipo.logoImage} alt={ipo.company} width={50} height={50} />
+                        <Image
+                          src={ipo.logoImage}
+                          alt={ipo.company}
+                          width={50}
+                          height={50}
+                        />
                       </div>
                       <div className="name-text">
                         <p className="secondary">{ipo.company}</p>

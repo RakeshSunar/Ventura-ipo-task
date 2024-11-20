@@ -1,19 +1,18 @@
 body {
-  font-family: 'sora', sans-serif;
+  font-family: "sora", sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
-  
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-a{
+a {
   text-decoration: none;
 }
- 
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -25,230 +24,81 @@ a{
   margin-bottom: 1rem;
 }
 
-
-/* ipo listing page css start here */
-.ipo-list{
- display: flex;
- align-items: center;
- justify-content: center;
- height: 100vh;
- width: 100%;
-}
-
-.primary{
+.primary {
   font-size: 12px;
   color: #777485;
 }
-.secondary{
+.secondary {
   font-size: 14px;
   color: #191442;
   font-weight: 600;
 }
 
-.ipo-list thead{
-  background-color: #F8F8F8;
+/* ipo listing page css start here */
+.ipo-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
 }
- 
 
-.ipo-list, .ipo-details {
+.ipo-list thead {
+  background-color: #f8f8f8;
+}
+
+.ipo-list,
+.ipo-details {
   background: white;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
- 
+
 .ipo-table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid #e3e2e9 ;
+  border: 1px solid #e3e2e9;
 }
-.table-wrap{
+
+.table-wrap {
   width: 90%;
   padding: 16px;
   border-radius: 8px;
-  background-color: #F8F8F8;
-  border: 1px solid #e3e2e9 ;
+  background-color: #f8f8f8;
+  border: 1px solid #e3e2e9;
 }
 
-.table-wrap td{
+.table-wrap td {
   background-color: white;
 }
- 
-.ipo-table th, .ipo-table td {
+
+.ipo-table th,
+.ipo-table td {
   padding: 12px;
   text-align: left;
-  border-bottom: 1px solid #e3e2e9 ;
+  border-bottom: 1px solid #e3e2e9;
 }
 
-.company-wrap{
+.company-wrap {
   display: flex;
   align-items: center;
 }
 
-.company-wrap .name-text p:first-child{
+.company-wrap .name-text p:first-child {
   margin-bottom: 4px;
 }
-.logo img{
+.logo img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   margin-right: 4px;
 }
 
-
 /* ipo listing page css end */
 
 /* ipo detail page start here */
 
-
-.company-detail-wrap{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px;
-  border-radius: 8px;
-  background: white;
-  margin: 10px 0;
-  border: 1px solid #e3e2e9 ;
-
-}
-
-.logo_wrap{
-  display: flex;
-  align-items: center;
-}
-
-.logo_wrap .back-btn{
-  border-radius: 8px;
-  border: 1px solid  #e3e2e9 ;
-  background:  #fff;
-  height: 40px;
-  width: 40px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin-right: 20px;
-  cursor: pointer;
-
-}
-.company-logo {
-  display: flex;
-  justify-content: center;
-}
-.company-logo img{
-  width: 40px;
-  height: 40px;
-  margin-right: 20px;
-
-
-}
-
-.company-name{
-  font-size: 18px;
-  margin-bottom: 4px;
-  font-weight: 700;
-}
-
-.btn-wrap{
-  display: flex;
-  align-items: center ;
-}
-
-.apply-btn{
-  background: #191442;
-    border-radius: 12px;
-    padding: 14px 22px;
-    border: 2px solid #191442;
-    cursor: pointer;
-    color: white;
-    width: 160px;
-
-}
-
-
-
-.download-btn{
-  appearance: none;
-  border: none;
-  background: transparent;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-
-.ipo-detail-wrap{
-  margin: 20px 0;
-  padding: 16px;
-  background-color: white; 
-  border-radius: 8px;
-  border: 1px solid #e3e2e9 ;
-}
-
-.ipo-detail-inner-wrap{
-
-  padding: 16px;
-  border: 1px solid #e3e2e9 ;
-  border-radius: 8px;
-}
-
-.details-wrap{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.details-wrap:first-child{
-  margin-bottom: 10px;
-}
-
-.detail-title{
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-.details span:first-child{
-  margin-bottom: 4px;
-}
-/* .ipo-detail-inner-wrap span{
-  display: block;
-} */
-.ipo-detail-inner-wrap .details > span{
-  display: block;
-}
-.ipo-detail-inner-wrap .details span.secondary > span{
-  color: #ff6015;
-}
-
-.details{
-  width: calc(100% / 4);
-}
-
-
-/* abt css  */
-.abt-company-wrap{
-  background-color: white;
-  padding: 16px;
-  border-radius: 8px;
-  margin:20px 0;
-  border: 1px solid #e3e2e9;
-}
-
-.abt-company-wrap h3{
-  margin-bottom: 16px;
-}
-
-.abt-company-wrap .abt-txt{
-  margin-bottom: 16px;
-}
-
-.invest-qty-wrap{
-  display: inline-block;
-
-}
-.minInvestment{
-  text-align: center;
-}
-
-.links{
+.links {
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -256,18 +106,158 @@ a{
   margin-right: 5px;
 }
 
-
-
-
-/* ipo detail page end */
-
-
-/* responsive  */
-
-
-.content-Wrapper {
-  margin-top: 500px;
+.company-detail-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+  margin: 10px 0;
+  border: 1px solid #e3e2e9;
 }
+
+.logo_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo_wrap .back-btn {
+  border-radius: 8px;
+  border: 1px solid #e3e2e9;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.ipo-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid rgb(245 245 245);
+}
+
+.ipo-table th,
+.ipo-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e3e2e9;
+}
+.company-logo {
+  display: flex;
+  justify-content: center;
+}
+.company-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.company-name {
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.btn-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.apply-btn {
+  background: #191442;
+  border-radius: 12px;
+  padding: 14px 22px;
+  border: 2px solid #191442;
+  cursor: pointer;
+  color: white;
+  width: 160px;
+}
+
+.download-btn {
+  appearance: none;
+  border: none;
+  background: transparent;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.ipo-detail-wrap {
+  margin: 20px 0;
+  padding: 16px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid #e3e2e9;
+}
+
+.ipo-detail-inner-wrap {
+  padding: 16px;
+  border: 1px solid #e3e2e9;
+  border-radius: 8px;
+}
+
+.details-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-wrap:first-child {
+  margin-bottom: 10px;
+}
+
+.detail-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.details span:first-child {
+  margin-bottom: 4px;
+}
+
+.ipo-detail-inner-wrap .details > span {
+  display: block;
+}
+.ipo-detail-inner-wrap .details span.secondary > span {
+  color: #ff6015;
+}
+
+.details {
+  width: calc(100% / 4);
+}
+
+/* abt css  */
+.abt-company-wrap {
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 20px 0;
+  border: 1px solid #e3e2e9;
+}
+
+.abt-company-wrap h3 {
+  margin-bottom: 16px;
+}
+
+.abt-company-wrap .abt-txt {
+  margin-bottom: 16px;
+}
+
+.invest-qty-wrap {
+  display: inline-block;
+}
+.minInvestment {
+  text-align: center;
+}
+
+.details {
+  margin-top: 1rem;
+}
+
+/* ipo details page end */
 
 .ipo-heading {
   background: rgb(245 245 245);
@@ -282,26 +272,6 @@ a{
   background: rgb(245 245 245);
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.ipo-table {
-  width: 100%;
-  border-collapse: collapse;
-  /* margin-bottom: 1rem; */
-  border: 1px solid rgb(245 245 245);
-}
-
-.ipo-table th,
-.ipo-table td {
-  padding: 12px;
-  text-align: left;
-  border-bottom: 1px solid #e3e2e9 ;
-}
-
-
-
-.details {
-  margin-top: 1rem;
 }
 
 /* stepper css start*/
@@ -469,11 +439,10 @@ a{
   display: flex;
 }
 
-
-
 .step-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
 
 .stepRange {
@@ -498,25 +467,20 @@ a{
 
 .ipo-timeline-wrapper {
   padding: 16px;
-  border: 1px solid #e3e2e9 ;
+  border: 1px solid #e3e2e9;
   border-radius: 25px;
   background-color: white;
 }
 
-.ipo-timeline-wrapper h3{
+.ipo-timeline-wrapper h3 {
   margin-bottom: 20px;
 }
 
-.timeline-heading{
-  margin-bottom: 15px;
+.timeline-heading {
+  color: #191442;
+  margin-bottom: 12px;
   font-weight: 600;
 }
-
-
-
-
-
-
 
 /* Rounded for circle appearance */
 .rounded-full {
@@ -537,16 +501,9 @@ a{
   height: 4px;
 }
 
-
-
 .items-center {
   display: flex;
   align-items: center;
-}
-
-.step-wrapper {
-  display: flex;
-  justify-content: space-between;
 }
 
 .stepRange {
@@ -569,24 +526,17 @@ a{
   height: 50px;
 }
 
-
-
-
-
-
-
+/* responsive part start here  */
 
 @media screen and (max-width: 768px) {
-  .links{
-
+  .links {
     display: flex;
     align-items: center;
     margin: 10px 0;
     margin-bottom: 20px;
     margin-right: 5px;
-
   }
-  
+
   .timeline {
     flex-direction: column;
     align-items: start;
@@ -645,11 +595,10 @@ a{
 
   .step-wrapper {
     flex-direction: column;
+    margin: 0;
   }
 
-
-
-  .step-count{
+  .step-count {
     min-width: 40px;
     height: 40px;
   }
@@ -658,7 +607,6 @@ a{
     flex-direction: column;
     align-items: start;
   }
-
 
   .timeline-item {
     display: flex;
@@ -682,88 +630,75 @@ a{
     margin-right: 15px;
   }
 
-
-
   .stepWrapper {
     text-align: center;
-    
   }
 
   .ipo-timeline {
     display: flex;
   }
 
-  .step-wrapper {
-    flex-direction: column;
-  }
-
-  
-  .step-wrapper{
-    margin-top: 10px;
-  }
-  .apply-btn{
+  .apply-btn {
     display: none;
   }
-.download-btn img{
- display: none;
-}
-.details-wrap{
-  flex-wrap: wrap;
-}
-.details {
-  width: calc(100% / 2);
-}
-  /* .ipo-list, .ipo-details{
-    padding: 8px;
-  } */
+  .download-btn img {
+    display: none;
+  }
+  .details-wrap {
+    flex-wrap: wrap;
+  }
+  .details {
+    width: calc(100% / 2);
+  }
 
-  .primary{
+  .primary {
     font-size: 10px;
   }
 
-  .secondary{
+  .secondary {
     font-size: 10px;
   }
-  .minInvestment{
+  .minInvestment {
     text-align: start;
   }
 
   .table-wrap {
-    padding:12px ;
+    padding: 12px;
   }
 
-  .ipo-table th, .ipo-table td {
+  .ipo-table th,
+  .ipo-table td {
     padding: 10px;
-
   }
 
-  .logo_wrap .back-btn{
+  .logo_wrap .back-btn {
     display: none;
   }
 
-  .company-logo img{
+  .company-logo img {
     margin-right: 10px;
   }
 
-  .ipo-detail-wrap{
+  .ipo-detail-wrap {
     margin: 0;
     border: none;
   }
-  .ipo-timeline-wrapper{
+  .ipo-timeline-wrapper {
     border: none;
+    border-radius: 0;
   }
-  .abt-company-wrap{
-    margin: 0;
-    border: none;
-  }
-
-  .company-detail-wrap{
+  .abt-company-wrap {
     margin: 0;
     border: none;
   }
 
+  .company-detail-wrap {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+  }
 
-  
+  .timeline-heading {
+    margin-bottom: 5px;
+  }
 }
-
-
