@@ -1,42 +1,769 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
+  font-family: 'sora', sans-serif;
   margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  
 }
 
-a {
-  color: inherit;
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
   text-decoration: none;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+ 
+.container {
+  width: 90%;
+  margin: 0 auto;
 }
+
+.heading {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+
+/* ipo listing page css start here */
+.ipo-list{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ width: 100%;
+}
+
+.primary{
+  font-size: 12px;
+  color: #777485;
+}
+.secondary{
+  font-size: 14px;
+  color: #191442;
+  font-weight: 600;
+}
+
+.ipo-list thead{
+  background-color: #F8F8F8;
+}
+ 
+
+.ipo-list, .ipo-details {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+ 
+.ipo-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e3e2e9 ;
+}
+.table-wrap{
+  width: 90%;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #F8F8F8;
+  border: 1px solid #e3e2e9 ;
+}
+
+.table-wrap td{
+  background-color: white;
+}
+ 
+.ipo-table th, .ipo-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e3e2e9 ;
+}
+
+.company-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.company-wrap .name-text p:first-child{
+  margin-bottom: 4px;
+}
+.logo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
+
+/* ipo listing page css end */
+
+/* ipo detail page start here */
+
+
+.company-detail-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 8px;
+  background: white;
+  margin: 10px 0;
+  border: 1px solid #e3e2e9 ;
+
+}
+
+.logo_wrap{
+  display: flex;
+  align-items: center;
+}
+
+.logo_wrap .back-btn{
+  border-radius: 8px;
+  border: 1px solid  #e3e2e9 ;
+  background:  #fff;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+.company-logo {
+  display: flex;
+  justify-content: center;
+}
+.company-logo img{
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+
+
+}
+
+.company-name{
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.btn-wrap{
+  display: flex;
+  align-items: center ;
+}
+
+.apply-btn{
+  background: #191442;
+    border-radius: 12px;
+    padding: 14px 22px;
+    border: 2px solid #191442;
+    cursor: pointer;
+    color: white;
+    width: 160px;
+
+}
+
+
+
+.download-btn{
+  appearance: none;
+  border: none;
+  background: transparent;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.ipo-detail-wrap{
+  margin: 20px 0;
+  padding: 16px;
+  background-color: white; 
+  border-radius: 8px;
+  border: 1px solid #e3e2e9 ;
+}
+
+.ipo-detail-inner-wrap{
+
+  padding: 16px;
+  border: 1px solid #e3e2e9 ;
+  border-radius: 8px;
+}
+
+.details-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details-wrap:first-child{
+  margin-bottom: 10px;
+}
+
+.detail-title{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.details span:first-child{
+  margin-bottom: 4px;
+}
+/* .ipo-detail-inner-wrap span{
+  display: block;
+} */
+.ipo-detail-inner-wrap .details > span{
+  display: block;
+}
+.ipo-detail-inner-wrap .details span.secondary > span{
+  color: #ff6015;
+}
+
+.details{
+  width: calc(100% / 4);
+}
+
+
+/* abt css  */
+.abt-company-wrap{
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin:20px 0;
+  border: 1px solid #e3e2e9;
+}
+
+.abt-company-wrap h3{
+  margin-bottom: 16px;
+}
+
+.abt-company-wrap .abt-txt{
+  margin-bottom: 16px;
+}
+
+.invest-qty-wrap{
+  display: inline-block;
+
+}
+.minInvestment{
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+
+
+
+
+/* ipo detail page end */
+
+
+/* responsive  */
+
+
+.content-Wrapper {
+  margin-top: 500px;
+}
+
+.ipo-heading {
+  background: rgb(245 245 245);
+}
+
+.ipo-list-details {
+  background: white;
+}
+
+.ipo-list,
+.ipo-details {
+  background: rgb(245 245 245);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ipo-table {
+  width: 100%;
+  border-collapse: collapse;
+  /* margin-bottom: 1rem; */
+  border: 1px solid rgb(245 245 245);
+}
+
+.ipo-table th,
+.ipo-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e3e2e9 ;
+}
+
+
+
+.details {
+  margin-top: 1rem;
+}
+
+/* stepper css start*/
+.timeline-container {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  /* 80% of the screen for larger viewports */
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-title {
+  font-size: 1.6rem;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #ddd;
+  transform: translateY(-50%);
+  z-index: 0;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background-color: #4caf50;
+  transition: width 0.5s ease-in-out;
+  /* Smooth fill animation */
+}
+
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--progress-width, 0%);
+  /* Default to 0% progress */
+  height: 100%;
+  background-color: #4caf50;
+  z-index: 1;
+  transition: width 0.5s ease-in-out;
+  /* Smooth animation for progress */
+}
+
+.timeline-item {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  width: 16%;
+  /* Ensures 6 items fit evenly across the bar */
+}
+
+.timeline-item .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #4caf50;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #333;
+}
+
+.timeline-item span {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.timeline-item .icon {
+  width: 30px;
+  height: 30px;
+  background-color: #ddd;
+  /* Default background for incomplete steps */
+  color: #aaa;
+  /* Default gray color for the icon text */
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item.completed .icon {
+  background-color: #4caf50;
+  /* Green background for completed steps */
+  color: white;
+  /* White text for completed icons */
+}
+
+.timeline-item.incomplete .icon {
+  background-color: #ddd;
+  /* Gray background for incomplete steps */
+  color: #aaa;
+  /* Gray text for incomplete icons */
+}
+
+.icon-wrapper {
+  position: absolute;
+}
+
+/* Circle dimensions */
+.w-6 {
+  width: 50%;
+}
+
+.h-6 {
+  height: 60px;
+}
+
+/* Rounded for circle appearance */
+.rounded-full {
+  border-radius: 100%;
+}
+
+/* Active step color */
+.bg-blue-500 {
+  background-color: #4caf50;
+}
+
+/* Inactive step color */
+.bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+/* Connector dimensions */
+.w-12 {
+  width: 10rem;
+}
+
+.h-1 {
+  height: 4px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.step-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepRange {
+  width: 100%;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  min-width: 55px;
+}
+
+.step-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  height: 50px;
+}
+
+.ipo-timeline-wrapper {
+  padding: 16px;
+  border: 1px solid #e3e2e9 ;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.ipo-timeline-wrapper h3{
+  margin-bottom: 20px;
+}
+
+.timeline-heading{
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+/* Rounded for circle appearance */
+.rounded-full {
+  border-radius: 100%;
+}
+
+/* Active step color */
+.bg-blue-500 {
+  background-color: #4caf50;
+}
+
+/* Inactive step color */
+.bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+.h-1 {
+  height: 4px;
+}
+
+
+
+.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.step-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepRange {
+  width: 100%;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  min-width: 55px;
+}
+
+.step-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .links{
+
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    margin-right: 5px;
+
+  }
+  
+  .timeline {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .progress-bar {
+    height: 100%;
+    width: 4px;
+    left: 42px;
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  .progress-bar::before {
+    height: 75%;
+    /* Adjust progress dynamically for smaller screens */
+    width: 100%;
+  }
+
+  .timeline-item {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    left: 27px;
+    text-align: start;
+  }
+
+  .timeline-item .icon {
+    margin: 0 15px 0 0;
+  }
+
+  .timeline-item p {
+    margin: 0 10px 10px 0;
+  }
+
+  div.items-center {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+  }
+
+  .stepRange.h-1 {
+    width: 4px;
+    height: 35px;
+    display: inline-block;
+    margin-bottom: -4px;
+  }
+
+  .stepWrapper {
+    text-align: center;
+  }
+
+  .ipo-timeline {
+    display: flex;
+  }
+
+  .step-wrapper {
+    flex-direction: column;
+  }
+
+
+
+  .step-count{
+    min-width: 40px;
+    height: 40px;
+  }
+
+  .timeline {
+    flex-direction: column;
+    align-items: start;
+  }
+
+
+  .timeline-item {
+    display: flex;
+    margin-bottom: 30px;
+    width: 100%;
+    left: 27px;
+    text-align: start;
+  }
+
+  .timeline-item .icon {
+    margin: 0 15px 0 0;
+  }
+
+  .timeline-item p {
+    margin: 0 10px 10px 0;
+  }
+
+  div.items-center {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15px;
+  }
+
+
+
+  .stepWrapper {
+    text-align: center;
+    
+  }
+
+  .ipo-timeline {
+    display: flex;
+  }
+
+  .step-wrapper {
+    flex-direction: column;
+  }
+
+  
+  .step-wrapper{
+    margin-top: 10px;
+  }
+  .apply-btn{
+    display: none;
+  }
+.download-btn img{
+ display: none;
+}
+.details-wrap{
+  flex-wrap: wrap;
+}
+.details {
+  width: calc(100% / 2);
+}
+  /* .ipo-list, .ipo-details{
+    padding: 8px;
+  } */
+
+  .primary{
+    font-size: 10px;
+  }
+
+  .secondary{
+    font-size: 10px;
+  }
+  .minInvestment{
+    text-align: start;
+  }
+
+  .table-wrap {
+    padding:12px ;
+  }
+
+  .ipo-table th, .ipo-table td {
+    padding: 10px;
+
+  }
+
+  .logo_wrap .back-btn{
+    display: none;
+  }
+
+  .company-logo img{
+    margin-right: 10px;
+  }
+
+  .ipo-detail-wrap{
+    margin: 0;
+    border: none;
+  }
+  .ipo-timeline-wrapper{
+    border: none;
+  }
+  .abt-company-wrap{
+    margin: 0;
+    border: none;
+  }
+
+  .company-detail-wrap{
+    margin: 0;
+    border: none;
+  }
+
+
+  
+}
+
+

@@ -1,0 +1,94 @@
+
+  [
+    {
+      "id": "go-air",
+      "company": "GO AIR",
+      "priceRange": "₹50-60",
+      "priceRanges": "₹100-200",
+      "issueSizes": "₹3,600 -3,700 Cr.",
+      "issueSize": "₹3600 Crores",
+      "minInvestment": "₹50,000",
+      "minInvestments": "₹50,000",
+      "qty": "100 Shares/5 lots",
+      "lots": "150 Shares/lots",
+      "issueDate": "4th-7th oct 2022",
+      "issueDates": "12 Dec - 15 Dec 22",
+      "listedOn": "15 Dec 22",
+      "listedPrice": "₹160",
+      "listedGains": "₹10 ",
+      "listedGainsValue": "10.0%",
+      "logoImage": "/images/go-air.jpeg", 
+      "abtUsTxt":"Go Air Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum saepe libero, cupiditate natus fugiat, sed voluptatum vitae amet fugit eligendi repudiandae esse quam assumenda deleniti totam possimus corporis! Quis, tempore. Corrupti iusto, facilis minus nesciunt ipsam animi id incidunt numquam omnis consectetur officia doloremque repudiandae ipsum debitis qui illum quia itaque ut expedita ullam. Explicabo quod sint esse doloribus? Nulla consectetur perspiciatis eligendi tempora totam illum eius deserunt? Architecto totam iusto rerum ea eos, atque fugiat qui asperiores est exercitationem facere? Ab, modi optio beatae id veniam, alias, voluptatum possimus nemo illo dolorum mollitia! Vitae provident, cupiditate iusto mollitia, recusandae sapiente deleniti eligendi cumque natus nostrum illo tempora voluptate. Laudantium vitae exercitationem nesciunt autem eligendi temporibus sunt quis, aliquid dolores, et at. Magnam tempore tenetur quaerat autem voluptatum quisquam modi perspiciatis labore, itaque nemo. Blanditiis eos rerum facilis ea ex! Aperiam at obcaecati, consequatur molestiae, corrupti quis, veritatis velit ex dolore tempora ea illum porro fuga ipsam commodi! Tempore ab voluptatem eaque ex modi totam laborum architecto illo culpa laudantium iure eveniet minima, dolorum quo impedit velit accusantium non, quod delectus dolorem inventore nemo tempora corrupti.",
+      "abtUsTxt2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veniam eius harum minus, animi sed dignissimos culpa, deleniti pariatur natus temporibus doloremque. Iste voluptatum explicabo ab aliquid numquam suscipit corporis eum praesentium officia rem velit, maxime accusamus quam error soluta. Repellat commodi sit, laudantium maiores nemo, iste voluptatibus reprehenderit perferendis expedita qui corporis praesentium exercitationem quam totam cum aperiam nesciunt maxime hic aut dolorum adipisci mollitia? Voluptas magnam aut eum commodi repellat dolor dolorem hic voluptatem nulla dicta, tempore minus nisi quia ut saepe nesciunt possimus natus et numquam fugiat placeat mollitia. Deserunt hic odio non nihil eveniet, laborum consectetur voluptatibus? Quia quae veniam fugiat tempora ullam unde dicta illo libero ut consequatur illum iste sequi accusamus quaerat laborum tempore adipisci dolores, id itaque qui ducimus molestias ipsam? Quibusdam consectetur sit commodi, dolore nam iusto corporis quidem quaerat architecto error, natus hic deserunt accusamus dignissimos rem debitis ut ducimus? Dolor, ullam, quasi laborum aperiam consequatur nam soluta officiis quis, tempora corporis quas provident quae aliquid quibusdam. Inventore saepe dolore quos ullam! Consequatur rem quidem corrupti, sapiente quod eum saepe deleniti odit cum veniam modi dolor error debitis unde quos quae repellendus aut impedit pariatur illum tempore enim porro fugiat in. Quod eum ipsum laudantium nesciunt quis veniam eos sint magnam deserunt, provident itaque illo praesentium incidunt, eligendi nisi exercitationem sed? Quia magnam voluptatum doloremque. Reprehenderit accusamus tenetur accusantium unde consequatur eligendi aperiam necessitatibus, iusto temporibus nesciunt cum dignissimos quisquam id voluptate totam, illum reiciendis! Nihil rerum nemo nobis, laudantium quis delectus fuga architecto. In dolorem voluptatum dolore aperiam voluptatibus. Quidem labore id velit expedita consequuntur sit ducimus aliquam. Similique velit consectetur assumenda id sunt earum est quibusdam quia, natus laboriosam deserunt magnam doloribus facilis voluptas placeat nulla perspiciatis vitae sint non impedit provident. Quos, sed. In autem, quos corporis esse saepe commodi aliquid! Necessitatibus quaerat cum perferendis, consectetur repellendus quam possimus sequi dignissimos quidem, fugiat sint. Eligendi fugiat assumenda, reiciendis quasi doloremque ullam rerum est, voluptates explicabo eius voluptatum praesentium odio laboriosam. Quasi nostrum commodi dolor? Voluptatem laudantium eveniet labore ea nisi possimus debitis error repellendus minus neque sed, velit ex quod, sit mollitia porro optio. Dolorum harum voluptatem, quos reprehenderit libero nam temporibus maxime porro ad non. Expedita, numquam quas inventore omnis sed, asperiores praesentium neque fugiat molestias assumenda excepturi natus voluptate facere blanditiis nobis veniam vitae tenetur doloremque ipsum itaque! Aspernatur veritatis voluptatum aperiam, soluta commodi vel nulla.",
+
+      "steps": [
+        { "title": "Bidding starts", "date": "12 Dec 2023" },
+        { "title": "Bidding ends", "date": "15 Dec 2026" },
+        { "title": "Allotment finalization", "date": "18 Dec 2026" },
+        { "title": "Refund initiation", "date": "18 Dec 2026" },
+        { "title": "Demat transfer", "date": "18 Dec 2026" },
+        { "title": "Listing date", "date": "21 Dec 2026" }
+      ]
+    },
+    {
+      "id": "bajaj-energy",
+      "company": "BAJAJ ENERGY",
+      "priceRange": "₹50-60",
+      "priceRanges": "₹100-200",
+      "issueSizes": "₹3,600 -3,700 Cr.",
+      "issueSize": "₹3600 Crores",
+      "minInvestment": "₹50,000",
+      "minInvestments": "₹25,000",
+      "qty": "100 Shares/5 lots",
+      "lots": "160 Shares/5 lots",
+      "issueDate": "4th-7th oct 2022",
+      "issueDates": "12 Dec - 15 Dec 22",
+      "listedOn": "15 Dec 22",
+      "listedPrice": "₹150",
+      "listedGains": "₹10 ",
+      "listedGainsValue": "10.0%",
+      "logoImage": "/images/bajaj-energy.jpg", 
+      "abtUsTxt":"Bajaj Energy Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum saepe libero, cupiditate natus fugiat, sed voluptatum vitae amet fugit eligendi repudiandae esse quam assumenda deleniti totam possimus corporis! Quis, tempore. Corrupti iusto, facilis minus nesciunt ipsam animi id incidunt numquam omnis consectetur officia doloremque repudiandae ipsum debitis qui illum quia itaque ut expedita ullam. Explicabo quod sint esse doloribus? Nulla consectetur perspiciatis eligendi tempora totam illum eius deserunt? Architecto totam iusto rerum ea eos, atque fugiat qui asperiores est exercitationem facere? Ab, modi optio beatae id veniam, alias, voluptatum possimus nemo illo dolorum mollitia! Vitae provident, cupiditate iusto mollitia, recusandae sapiente deleniti eligendi cumque natus nostrum illo tempora voluptate. Laudantium vitae exercitationem nesciunt autem eligendi temporibus sunt quis, aliquid dolores, et at. Magnam tempore tenetur quaerat autem voluptatum quisquam modi perspiciatis labore, itaque nemo. Blanditiis eos rerum facilis ea ex! Aperiam at obcaecati, consequatur molestiae, corrupti quis, veritatis velit ex dolore tempora ea illum porro fuga ipsam commodi! Tempore ab voluptatem eaque ex modi totam laborum architecto illo culpa laudantium iure eveniet minima, dolorum quo impedit velit accusantium non, quod delectus dolorem inventore nemo tempora corrupti.",
+      "abtUsTxt2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veniam eius harum minus, animi sed dignissimos culpa, deleniti pariatur natus temporibus doloremque. Iste voluptatum explicabo ab aliquid numquam suscipit corporis eum praesentium officia rem velit, maxime accusamus quam error soluta. Repellat commodi sit, laudantium maiores nemo, iste voluptatibus reprehenderit perferendis expedita qui corporis praesentium exercitationem quam totam cum aperiam nesciunt maxime hic aut dolorum adipisci mollitia? Voluptas magnam aut eum commodi repellat dolor dolorem hic voluptatem nulla dicta, tempore minus nisi quia ut saepe nesciunt possimus natus et numquam fugiat placeat mollitia. Deserunt hic odio non nihil eveniet, laborum consectetur voluptatibus? Quia quae veniam fugiat tempora ullam unde dicta illo libero ut consequatur illum iste sequi accusamus quaerat laborum tempore adipisci dolores, id itaque qui ducimus molestias ipsam? Quibusdam consectetur sit commodi, dolore nam iusto corporis quidem quaerat architecto error, natus hic deserunt accusamus dignissimos rem debitis ut ducimus? Dolor, ullam, quasi laborum aperiam consequatur nam soluta officiis quis, tempora corporis quas provident quae aliquid quibusdam. Inventore saepe dolore quos ullam! Consequatur rem quidem corrupti, sapiente quod eum saepe deleniti odit cum veniam modi dolor error debitis unde quos quae repellendus aut impedit pariatur illum tempore enim porro fugiat in. Quod eum ipsum laudantium nesciunt quis veniam eos sint magnam deserunt, provident itaque illo praesentium incidunt, eligendi nisi exercitationem sed? Quia magnam voluptatum doloremque. Reprehenderit accusamus tenetur accusantium unde consequatur eligendi aperiam necessitatibus, iusto temporibus nesciunt cum dignissimos quisquam id voluptate totam, illum reiciendis! Nihil rerum nemo nobis, laudantium quis delectus fuga architecto. In dolorem voluptatum dolore aperiam voluptatibus. Quidem labore id velit expedita consequuntur sit ducimus aliquam. Similique velit consectetur assumenda id sunt earum est quibusdam quia, natus laboriosam deserunt magnam doloribus facilis voluptas placeat nulla perspiciatis vitae sint non impedit provident. Quos, sed. In autem, quos corporis esse saepe commodi aliquid! Necessitatibus quaerat cum perferendis, consectetur repellendus quam possimus sequi dignissimos quidem, fugiat sint. Eligendi fugiat assumenda, reiciendis quasi doloremque ullam rerum est, voluptates explicabo eius voluptatum praesentium odio laboriosam. Quasi nostrum commodi dolor? Voluptatem laudantium eveniet labore ea nisi possimus debitis error repellendus minus neque sed, velit ex quod, sit mollitia porro optio. Dolorum harum voluptatem, quos reprehenderit libero nam temporibus maxime porro ad non. Expedita, numquam quas inventore omnis sed, asperiores praesentium neque fugiat molestias assumenda excepturi natus voluptate facere blanditiis nobis veniam vitae tenetur doloremque ipsum itaque! Aspernatur veritatis voluptatum aperiam, soluta commodi vel nulla.",
+
+      "steps": [
+        { "title": "Bidding starts", "date": "12 Dec 2023" },
+        { "title": "Bidding ends", "date": "15 Dec 2026" },
+        { "title": "Allotment finalization", "date": "18 Dec 2026" },
+        { "title": "Refund initiation", "date": "18 Dec 2026" },
+        { "title": "Demat transfer", "date": "18 Dec 2026" },
+        { "title": "Listing date", "date": "21 Dec 2026" }
+      ]
+    },
+    {
+      "id": "oyo",
+      "company": "OYO",
+      "priceRange": "₹50-60",
+      "priceRanges": "₹100-200",
+      "issueSizes": "₹3,600 -3,700 Cr.",
+      "issueSize": "₹3600 Crores",
+      "minInvestment": "₹50,000",
+      "minInvestments": "₹50,000",
+      "qty": "100 Shares/5 lots",
+      "lots": "160 Shares/5 lots",
+      "issueDate": "4th-7th oct 2022",
+      "issueDates": "12 Dec - 15 Dec 22",
+      "listedOn": "15 Dec 22",
+      "listedPrice": "₹150",
+      "listedGains": "₹10",
+      "listedGainsValue": "10.0%",
+      "logoImage": "/images/oyo.png", 
+      "abtUsTxt":"OYO Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum saepe libero, cupiditate natus fugiat, sed voluptatum vitae amet fugit eligendi repudiandae esse quam assumenda deleniti totam possimus corporis! Quis, tempore. Corrupti iusto, facilis minus nesciunt ipsam animi id incidunt numquam omnis consectetur officia doloremque repudiandae ipsum debitis qui illum quia itaque ut expedita ullam. Explicabo quod sint esse doloribus? Nulla consectetur perspiciatis eligendi tempora totam illum eius deserunt? Architecto totam iusto rerum ea eos, atque fugiat qui asperiores est exercitationem facere? Ab, modi optio beatae id veniam, alias, voluptatum possimus nemo illo dolorum mollitia! Vitae provident, cupiditate iusto mollitia, recusandae sapiente deleniti eligendi cumque natus nostrum illo tempora voluptate. Laudantium vitae exercitationem nesciunt autem eligendi temporibus sunt quis, aliquid dolores, et at. Magnam tempore tenetur quaerat autem voluptatum quisquam modi perspiciatis labore, itaque nemo. Blanditiis eos rerum facilis ea ex! Aperiam at obcaecati, consequatur molestiae, corrupti quis, veritatis velit ex dolore tempora ea illum porro fuga ipsam commodi! Tempore ab voluptatem eaque ex modi totam laborum architecto illo culpa laudantium iure eveniet minima, dolorum quo impedit velit accusantium non, quod delectus dolorem inventore nemo tempora corrupti.",
+      "abtUsTxt2":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, veniam eius harum minus, animi sed dignissimos culpa, deleniti pariatur natus temporibus doloremque. Iste voluptatum explicabo ab aliquid numquam suscipit corporis eum praesentium officia rem velit, maxime accusamus quam error soluta. Repellat commodi sit, laudantium maiores nemo, iste voluptatibus reprehenderit perferendis expedita qui corporis praesentium exercitationem quam totam cum aperiam nesciunt maxime hic aut dolorum adipisci mollitia? Voluptas magnam aut eum commodi repellat dolor dolorem hic voluptatem nulla dicta, tempore minus nisi quia ut saepe nesciunt possimus natus et numquam fugiat placeat mollitia. Deserunt hic odio non nihil eveniet, laborum consectetur voluptatibus? Quia quae veniam fugiat tempora ullam unde dicta illo libero ut consequatur illum iste sequi accusamus quaerat laborum tempore adipisci dolores, id itaque qui ducimus molestias ipsam? Quibusdam consectetur sit commodi, dolore nam iusto corporis quidem quaerat architecto error, natus hic deserunt accusamus dignissimos rem debitis ut ducimus? Dolor, ullam, quasi laborum aperiam consequatur nam soluta officiis quis, tempora corporis quas provident quae aliquid quibusdam. Inventore saepe dolore quos ullam! Consequatur rem quidem corrupti, sapiente quod eum saepe deleniti odit cum veniam modi dolor error debitis unde quos quae repellendus aut impedit pariatur illum tempore enim porro fugiat in. Quod eum ipsum laudantium nesciunt quis veniam eos sint magnam deserunt, provident itaque illo praesentium incidunt, eligendi nisi exercitationem sed? Quia magnam voluptatum doloremque. Reprehenderit accusamus tenetur accusantium unde consequatur eligendi aperiam necessitatibus, iusto temporibus nesciunt cum dignissimos quisquam id voluptate totam, illum reiciendis! Nihil rerum nemo nobis, laudantium quis delectus fuga architecto. In dolorem voluptatum dolore aperiam voluptatibus. Quidem labore id velit expedita consequuntur sit ducimus aliquam. Similique velit consectetur assumenda id sunt earum est quibusdam quia, natus laboriosam deserunt magnam doloribus facilis voluptas placeat nulla perspiciatis vitae sint non impedit provident. Quos, sed. In autem, quos corporis esse saepe commodi aliquid! Necessitatibus quaerat cum perferendis, consectetur repellendus quam possimus sequi dignissimos quidem, fugiat sint. Eligendi fugiat assumenda, reiciendis quasi doloremque ullam rerum est, voluptates explicabo eius voluptatum praesentium odio laboriosam. Quasi nostrum commodi dolor? Voluptatem laudantium eveniet labore ea nisi possimus debitis error repellendus minus neque sed, velit ex quod, sit mollitia porro optio. Dolorum harum voluptatem, quos reprehenderit libero nam temporibus maxime porro ad non. Expedita, numquam quas inventore omnis sed, asperiores praesentium neque fugiat molestias assumenda excepturi natus voluptate facere blanditiis nobis veniam vitae tenetur doloremque ipsum itaque! Aspernatur veritatis voluptatum aperiam, soluta commodi vel nulla.",
+
+      "steps": [
+        { "title": "Bidding starts", "date": "12 Dec 2023" },
+        { "title": "Bidding ends", "date": "15 Dec 2023" },
+        { "title": "Allotment finalization", "date": "18 Dec 2026" },
+        { "title": "Refund initiation", "date": "18 Dec 2026" },
+        { "title": "Demat transfer", "date": "18 Dec 2026" },
+        { "title": "Listing date", "date": "21 Dec 2026" }
+      ]
+    }
+  ]
+  
